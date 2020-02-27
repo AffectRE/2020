@@ -1,0 +1,38 @@
+body {
+	min-height: 500px;
+	padding-top: 56px;
+}
+
+.jumbotron {
+	background-image: linear-gradient(-45deg, rgb(254, 175, 138), rgb(242, 157, 154), rgb(229, 206, 226));
+	color: black;
+}
+
+.footer {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: absolute
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: rgb(190, 190, 190);
+}
+
+/* Correct the offset that is caused by the navbar when using anchors */
+:target:before
+{
+	content: "";
+	display: block;
+	height: 56px;
+	margin-top: -56px;
+}
+
+/* Make the important dates and RE information always visible */
+.sticky-offset {
+	top: 76px; /* 56 + 20 */
+}
+
+/* Ensure that the important dates and RE information is always shown first */ 
+.row {
+	flex-wrap: wrap-reverse;
+}
