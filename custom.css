@@ -47,3 +47,53 @@ body {
 .row {
 	flex-wrap: wrap-reverse;
 }
+
+.organizers{
+	width: 24.15%;
+}
+
+@media (max-width: 350px) {
+
+	p, li {
+		font-size: small;
+	}
+
+}
+
+@media (max-width: 575.98px) {
+
+	.jumbotron {
+		text-align: center;
+	}
+
+	.jumbotron h1 {
+		font-size: xx-large;
+	}
+
+	.jumbotron .btn {
+		display: block;
+		margin-bottom: .5em;
+	}
+
+}
+
+@media (max-width: 991.98px) {
+	
+	.container .row .col-md-8 {
+		margin-top: 25px;
+	}
+
+	.organizers {
+		width: 49%;
+		margin-bottom: 5px;
+	}
+
+}
+
+@media (max-width: 1199.98px) {
+
+	.sticky-top {
+		font-size: small;
+	}
+
+}
