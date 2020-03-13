@@ -52,10 +52,24 @@ body {
 	width: 24.15%;
 }
 
+/* Used on smaller screens to start new line */ 
+.ws-date {
+	font-weight: bold;
+}
+
+/* Improves presentation of deadlines */
+.card-body {
+	padding-right: 0px;
+}
+
 @media (max-width: 350px) {
 
-	p, li {
-		font-size: small;
+	.ws-date {
+		display: block;
+	}
+	
+	h1 {
+		font-size: xx-large;
 	}
 
 }
@@ -90,10 +104,10 @@ body {
 
 }
 
-@media (max-width: 1199.98px) {
-
-	.sticky-top {
-		font-size: small;
+@media (min-width: 767.98px) and (max-width: 1199.98px) {
+	
+	.ws-date {
+		display: block;
 	}
-
+	
 }
