@@ -57,6 +57,10 @@ body {
 	font-weight: bold;
 }
 
+.strike-through {
+	text-decoration: line-through;
+}
+
 /* Improves presentation of deadlines */
 .card-body {
 	padding-right: 0px;
