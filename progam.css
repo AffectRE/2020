@@ -1,0 +1,41 @@
+table {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+table td{
+	padding: 12px;
+}
+
+.program-title {
+	background-color: #e5e5e5;
+	height: 90px;
+	border-left: 5px solid rgb(52, 58, 64);
+}
+
+.program-title td:first-child {
+	text-align: center;
+}
+
+.program-item {
+	border-bottom: 1px solid  #e5e5e5;
+	border-left: 5px solid white;
+}
+
+.program-item:hover {
+	background-color: rgb(255, 240, 230);
+	border-left: 5px solid rgb(255, 211, 182);
+}
+
+.program-session td{
+	vertical-align: middle;
+}
+
+.program-break {
+	background-color: rgb(226, 239, 218);
+}
+
+.program-space {
+	height: 20px;
+}
